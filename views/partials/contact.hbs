@@ -7,10 +7,10 @@
       <div class="row">
 
         <div class="col-md-12">
-          <h3 class="section-title">Contact Us</h3>
+          <h3 class="section-title">Contacto</h3>
           <div class="section-title-divider">
           </div>
-          <p class="section-description">Don't hesitate to contact us to request information about our services or book an appointment</p>
+          <p class="section-description">Pídenos información acerca de nuestros cursos y profesores. ¡Te respondemos al momento!</p>
 
 
         </div>
@@ -26,7 +26,7 @@
                 <i class="fa fa-map-marker"></i>
               </div>
               <div class="col-xs-7 col-md-3">
-                <p>{{address}}</p>
+                <p class="white">{{address}}</p>
               </div>
             </div>
           </div>
@@ -36,7 +36,7 @@
                 <i class="fa fa-envelope"></i>
               </div>
               <div class="col-xs-7 col-md-3">
-                <p>{{webmail}}</p>
+                <p class="white">{{webmail}}</p>
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@
                 <i class="fa fa-phone"></i>
               </div>
               <div class="col-xs-7 col-md-3">
-                <p>{{businessPhone}}</p>
+                <p class="white">{{businessPhone}}</p>
               </div>
             </div>
           </div>
@@ -54,37 +54,51 @@
 
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
           <div class="form">
-            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <div id="sendmessage">Tu mensaje ha sido enviado. ¡Gracias!</div>
             <div id="errormessage"></div>
             <form action="send" method="POST" class="contactForm">
               <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars"
+                <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Por favor, inserta 4 caracteres como mínimo"
                 />
                 <div class="validation"></div>
               </div>
               <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email"
+                <input type="email" class="form-control" name="email" id="email" placeholder="Correo electrónico" data-rule="email" data-msg="Por favor, inserta una dirección válida"
                 />
                 <div class="validation"></div>
               </div>
               <!-- CUSTOM TELPH RICARD-->
               <div class="form-group">
-                <input type="phone" class="form-control" name="phone" id="phone" placeholder="Your Phone number" data-rule="phone" data-rule="minlen:10"
-                  data-msg="Please enter a valid phone number" />
+                <input type="phone" class="form-control" name="phone" id="phone" placeholder="Telf." data-rule="phone" data-rule="minlen:10"
+                  data-msg="Por favor, inserta un telf. válido" />
                 <div class="validation"></div>
               </div>
 
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least  chars of subject"
+                <input type="materias" class="form-control" name="materias" id="phone" placeholder="Materias de interés" data-rule="materias"
+                  data-rule="minlen:4" data-msg="Por favor, inserta 4 caracteres como mínimo" />
+                <div class="validation"></div>
+              </div>
+
+              <div class="form-group">
+                <input type="nivel" class="form-control" name="nivel" id="nivel" placeholder="Nivel educativo" data-rule="nivel" data-rule="minlen:4"
+                  data-msg="Por favor, inserta 4 caracteres como mínimo" />
+                <div class="validation"></div>
+              </div>
+
+
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Por favor, pon 4 caracteres como mínimo"
                 />
                 <div class="validation"></div>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor, escribe algo para nosotros"
+                  placeholder="Mensaje"></textarea>
                 <div class="validation"></div>
               </div>
               <div class="text-center">
-                <button type="submit">Send Message</button>
+                <button type="submit">ENVIAR</button>
               </div>
             </form>
           </div>

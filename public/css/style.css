@@ -9,7 +9,7 @@
 --------------------------------------------------------------*/
 
 .white{
-  background: white;
+  color: white;
 }
 
 .grey{
@@ -145,7 +145,7 @@ h6 {
   height: 100vh;
   /*background: url(../img/medipedi.jpg) top center fixed;*/
   /* background:  url(../img/IMG_9641-min.JPG) top center fixed; */
-  background:  url(../img/beute2.jpg) top center fixed;
+  background:  url(../img/pexels1.jpeg) top center fixed;
   background-size: cover;
   margin: 0;
 
@@ -161,7 +161,7 @@ h6 {
     /*background: url(../img/medipedi.jpg) top center fixed;*/
     /*background:rgba(87, 0, 87, 0.9);*/
     /* background:  url(../img/IMG_9641-min.JPG) top center fixed; */
-    background:  url(../img/beute2.jpg) top center fixed;
+    background:  url(../img/pexels1.jpeg) top center fixed;
    background-size: 1020px 720px;
   }
 }
@@ -180,7 +180,7 @@ h6 {
   /* background: rgba(223, 37, 223, 0.322); THIS IS THE ORIGINAL ONE */
   /* background: rgba(204, 109, 198, 0.685); */
   /* background: rgba(168, 37, 185, 0.623); */
-  background: linear-gradient( rgba(249, 206, 255, 0.623), rgba(168, 37, 185, 0.623)) ;
+  background: linear-gradient( rgba(75, 75, 75, 0.623), rgba(14, 14, 14, 0.623)) ;
   
   /* background: rgba(241, 227, 241, 0.3);*/
   /*background: rgba(171, 50, 241, 0.8);*/
@@ -564,7 +564,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 .section-title {
   font-size: 32px;
-  color: #111;
+  color: white;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -573,7 +573,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-description {
   text-align: center;
   margin-bottom: 40px;
-  color:black;
+  color:white;
 }
 
 .section-title-divider {
@@ -587,7 +587,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Get Started Section
 --------------------------------*/
 #about {
-  background: #fff;
+  background: #FFBF3E;
   padding: 80px 0;
 }
 
@@ -597,7 +597,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-img {
 
- background: url(../img/beute1.jpg) center center no-repeat;
+ background: url(../img/pexels4.jpg) center center no-repeat;
   background-size: 900px 1000px;
   min-height: 300px;
   /*background-size: cover;*/
@@ -613,7 +613,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #about .about-img {
 
-    background: url(../img/beute1.jpg) center center no-repeat;
+    background: url(../img/pexels4.jpg) center center no-repeat;
      min-height: 520px;
      background-size: 900px 600px;
      border-radius: 3px;
@@ -628,7 +628,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 #about .about-content {
-  background: #fff;
+  background: #FFBF3E;
 }
 
 #about .about-title {
@@ -641,6 +641,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-text {
   line-height: 26px;
   text-align: justify;
+  color: white;
 }
 
 #about .about-text:last-child {
@@ -651,9 +652,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #services {
   background: linear-gradient(
-    rgba(255, 255, 255, 0.5),
-      rgba(168, 168, 168, 0.7)  /* rgba(133, 27, 143, 0.3),
-      rgba(168, 168, 168, 0.7)*/), url(../img/IMG_9644.JPG) fixed center center;
+    rgba(3, 53, 18, 0.5),
+      rgba(0, 26, 12, 0.7)  /* rgba(133, 27, 143, 0.3),
+      rgba(168, 168, 168, 0.7)*/), url(../img/pexels3.jpeg) fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
   width: 100%;
@@ -713,7 +714,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .service-title a {
   /*color: #111;*/
-  color: rgb(179, 19, 144);
+  color: rgb(13, 139, 97);
+  font-size: 40px;  
 }
 
 #services .service-description {
@@ -962,7 +964,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Contact Section
 --------------------------------*/
 #contact {
-  background: rgba(201, 36, 192, 0.2);
+  background: #009ABA;
   /*background: #f7f7f7;*/
   padding: 80px 0;
 }
@@ -984,7 +986,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact i {
   font-size: 30px;
-  color: #03c4eb;
+  color: white;
   
   height: 50px;
   width: 60px;
