@@ -1,0 +1,31 @@
+{
+  "name": "estudiafacilbcn",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ricard1102/node-estudia-facil-bcn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ricard1102/node-estudia-facil-bcn/issues"
+  },
+  "homepage": "https://github.com/Ricard1102/node-estudia-facil-bcn#readme",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.11",
+    "hbs": "^4.0.1",
+    "node-engine": "0.0.5",
+    "nodemailer": "^4.6.4",
+    "path": "^0.12.7"
+  }
+}
